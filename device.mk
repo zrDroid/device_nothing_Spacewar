@@ -226,6 +226,7 @@ PRODUCT_PACKAGES += \
     fstab.default.vendor_ramdisk \
     init.class_main.sh \
     init.kernel.post_boot.sh \
+    init.Spacewar.perf.rc \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
