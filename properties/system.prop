@@ -3,6 +3,7 @@ use.voice.path.for.pcm.voip=true
 
 # Audio Volume Steps
 ro.config.media_vol_steps=20
+ro.config.vc_call_vol_steps=6
 
 # Battery Saving
 persist.radio.add_power_save=1
