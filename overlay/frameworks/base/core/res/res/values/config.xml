@@ -619,4 +619,7 @@
 
     <!--Useful if you want to improve signal reception -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <!-- Does the device support color inversion -->
+    <bool name="config_displayInversionAvailable">false</bool>
 </resources>
