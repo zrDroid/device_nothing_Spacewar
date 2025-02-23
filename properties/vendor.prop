@@ -72,11 +72,15 @@ persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
 persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
 ro.bluetooth.a2dp_offload.supported=true
 
+# Camera
+camera.disable_zsl_mode=true
+
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
 # Display
+persist.sys.sf.native_mode=260
 vendor.display.comp_mask=0
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
@@ -150,6 +154,7 @@ persist.vendor.qteeconnector.retrying_interval=30
 persist.vendor.qteeconnector.retrying_timeout=2000
 
 # Radio
+telephony.lteOnCdmaDevice=1
 persist.radio.multisim.config=dsds
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
@@ -161,6 +166,7 @@ ro.telephony.default_network=33,33
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
+persist.vendor.sensors.enable.mag_filter=true
 persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 
