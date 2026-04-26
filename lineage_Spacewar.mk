@@ -28,7 +28,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=Spacewar \
-    BuildFingerprint="Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2602061016:user/release-keys"
+    BuildFingerprint="Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2604161140:user/release-keys"
 
 # Blur
 TARGET_ENABLE_BLUR := true
