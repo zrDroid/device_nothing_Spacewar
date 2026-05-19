@@ -2,11 +2,11 @@
     <screenBrightnessMap>
         <point>
             <value>0.0</value>
-            <nits>2.0</nits>
+            <nits>1.0</nits>
         </point>
         <point>
             <value>0.02442</value>
-            <nits>2.7</nits>
+            <nits>2.0</nits>
         </point>
         <point>
             <value>0.04884</value>
