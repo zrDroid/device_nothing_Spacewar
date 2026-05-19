@@ -50,9 +50,9 @@
         <minimumLux>4000.0</minimumLux>
         <timing>
             <!-- Time limitation for HBM-->
-            <timeWindowSecs>0</timeWindowSecs>
-            <timeMaxSecs>0</timeMaxSecs>
-            <timeMinSecs>0</timeMinSecs>
+            <timeWindowSecs>300</timeWindowSecs>
+            <timeMaxSecs>120</timeMaxSecs>
+            <timeMinSecs>30</timeMinSecs>
         </timing>
         <!-- Thermal limitation for HBM -->
         <thermalStatusLimit>critical</thermalStatusLimit>
